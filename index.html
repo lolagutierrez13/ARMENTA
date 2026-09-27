@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ARMENTA — Tipografía</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f3eee6;
+      color: #29251f;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      min-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .small {
+      font-size: 12px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      opacity: 0.65;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(70px, 15vw, 190px);
+      font-weight: normal;
+      letter-spacing: 8px;
+      margin: 0;
+    }
+
+    .subtitle {
+      margin-top: 25px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 100px 30px;
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      font-size: 42px;
+      font-weight: normal;
+      margin-bottom: 35px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.8;
+      max-width: 700px;
+    }
+
+    .specimen {
+      margin-top: 60px;
+      padding: 60px 30px;
+      border-top: 1px solid #b9b0a3;
+      border-bottom: 1px solid #b9b0a3;
+      text-align: center;
+    }
+
+    .alphabet {
+      font-family: Georgia, serif;
+      font-size: clamp(35px, 7vw, 85px);
+      line-height: 1.4;
+      word-break: break-word;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+      margin-top: 60px;
+    }
+
+    .info div {
+      border-top: 1px solid #b9b0a3;
+      padding-top: 20px;
+    }
+
+    .label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      opacity: 0.6;
+    }
+
+    .value {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .license {
+      background: #29251f;
+      color: #f3eee6;
+      max-width: none;
+      padding: 100px 30px;
+    }
+
+    .license-inner {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .license h2 {
+      color: #f3eee6;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 28px;
+      border: 1px solid #f3eee6;
+      color: #f3eee6;
+      text-decoration: none;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+
+    .button:hover {
+      background: #f3eee6;
+      color: #29251f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 50px 20px;
+      font-size: 12px;
+      letter-spacing: 2px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="small">Tipografía · 2026</div>
+
+  <h1>ARMENTA</h1>
+
+  <div class="subtitle">
+    Diseñada por Lola Gutiérrez Gajete
+  </div>
+</header>
+
+
+<section>
+
+  <h2>ARMENTA</h2>
+
+  <p>
+    ARMENTA es una tipografía diseñada por Lola Gutiérrez Gajete
+    en 2026. Este proyecto nace como una propuesta tipográfica
+    desarrollada desde una mirada personal y vinculada al diseño
+    gráfico y ornamental.
+  </p>
+
+  <div class="specimen">
+
+    <div class="alphabet">
+      ABCDEFGHIJKLM<br>
+      NÑOPQRSTUVWXYZ
+      <br><br>
+      abcdefghijklmn<br>
+      ñopqrstuvwxyz
+      <br><br>
+      0123456789
+    </div>
+
+  </div>
+
+  <div class="info">
+
+    <div>
+      <div class="label">Nombre</div>
+      <div class="value">ARMENTA</div>
+    </div>
+
+    <div>
+      <div class="label">Autora</div>
+      <div class="value">Lola Gutiérrez Gajete</div>
+    </div>
+
+    <div>
+      <div class="label">Año</div>
+      <div class="value">2026</div>
+    </div>
+
+    <div>
+      <div class="label">Licencia</div>
+      <div class="value">Creative Commons BY-NC-ND 4.0</div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="license">
+
+  <div class="license-inner">
+
+    <h2>Licencia</h2>
+
+    <p>
+      ARMENTA está licenciada bajo Creative Commons
+      Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional
+      (CC BY-NC-ND 4.0).
+    </p>
+
+    <p>
+      Se permite compartir la tipografía siempre que se reconozca
+      la autoría. No se permite su utilización con fines comerciales
+      ni la modificación y redistribución de versiones modificadas
+      sin autorización previa de la autora.
+    </p>
+
+    <a class="button"
+       href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+       target="_blank">
+       Ver licencia completa
+    </a>
+
+  </div>
+
+</section>
+
+
+<footer>
+
+  ARMENTA · © 2026 Lola Gutiérrez Gajete
+
+</footer>
+
+</body>
+</html>
